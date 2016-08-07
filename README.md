@@ -1,4 +1,10 @@
 # CS-1222 Introduction to Database
 
-This is introduction course to database. We will be learning SQL first 
-and NoSQL later in the course.
+This is introduction course to databases.
+
+In this course, we will be learning some basic term and concept of relational
+database and later over the NoSQL database.
+
+## Quick links
+
+* [Syllabus](syllabus.md)
