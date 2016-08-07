@@ -39,8 +39,6 @@
 4. Final 10 pts
 5. Attendance 5 pts
 
-**Final Project** Homework assignments culminate in a final project: a complete application/game that utilizes the AI theories. **Successful completion of the course project is a requirement for passing this course.**
-
 ## Grading Scale
 
 * A: 94 to 100
