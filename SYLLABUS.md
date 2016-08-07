@@ -78,8 +78,8 @@ The schedule below is tentative and is subject to change.
 | 11 [11/05]         | [Data definition language][9] |  |
 | 12 [11/12]         | [Introduction to NoSQL][10] |  |
 | 13 [11/19]         | [Read in MongoDB][11] |  |
-| 14 [11/26]         | [Write in MongoDB][12]|  |
-| 15 [12/03]         | [Aggregation in MongoDB][13] |
+| 14 [11/26]         | Thanks giving holiday | No class |
+| 15 [12/03]         | [Write in MongoDB][12] |
 | Final [12/10]      | [Final][13] |  |
 
 [1]: notes/introduction.md
