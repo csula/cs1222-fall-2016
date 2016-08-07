@@ -81,3 +81,18 @@ The schedule below is tentative and is subject to change.
 | 14 [11/26]         | [Write in MongoDB][12]|  |
 | 15 [12/03]         | [Aggregation in MongoDB][13] |
 | Final [12/10]      | [Final][13] |  |
+
+[1]: notes/introduction.md
+[2]: notes/sql-syntax.md
+[3]: notes/sql-aggregation.md
+[4]: notes/sql-joins.md
+[5]: notes/sql-functions.md
+[6]: notes/midterm.md
+[7]: notes/sql-advanced-queries.md
+[8]: notes/sql-data-manipulation.md
+[9]: notes/sql-ddl.md
+[10]: notes/introduction-nosql.md
+[11]: notes/mongo-read.md
+[12]: notes/mongo-write.md
+[13]: notes/mongo-aggregation.md
+[14]: notes/final/md
