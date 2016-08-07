@@ -7,4 +7,4 @@ database and later over the NoSQL database.
 
 ## Quick links
 
-* [Syllabus](syllabus.md)
+* [Syllabus](SYLLABUS.md)
