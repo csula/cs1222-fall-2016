@@ -71,13 +71,13 @@ The schedule below is tentative and is subject to change.
 | 4  [09/17]         | [Aggregation & Sub-queries][3] |  |
 | 5  [09/24]         | [Aggregation & Sub-queries][3] |  |
 | 6  [10/01]         | [SQL Joins][4] |  |
-| 7  [10/08]         | [SQL Joins][4] |  |
-| 8  [10/15]         | [SQL Functions][5] |  |
-| 9  [10/22]         | [Advanced Queries][6] |  |
-| 10 [10/29]         | [Data manipulation in SQL][7] |  |
-| 11 [11/05]         | [Data definition language][8] |  |
-| 12 [11/12]         | [Introduction to NoSQL][9] |  |
-| 13 [11/19]         | [Read in MongoDB][10] |  |
-| 14 [11/26]         | [Write in MongoDB][11]|  |
-| 15 [12/03]         | [Aggregation in MongoDB][12] |
-| Final [12/10]      | Project | Project demo **Homework 4** |
+| 7  [10/08]         | [SQL Functions][5] |  |
+| 8  [10/15]         | [Mid term][6] |  |
+| 9  [10/22]         | [Advanced Queries][7] |  |
+| 10 [10/29]         | [Data manipulation in SQL][8] |  |
+| 11 [11/05]         | [Data definition language][9] |  |
+| 12 [11/12]         | [Introduction to NoSQL][10] |  |
+| 13 [11/19]         | [Read in MongoDB][11] |  |
+| 14 [11/26]         | [Write in MongoDB][12]|  |
+| 15 [12/03]         | [Aggregation in MongoDB][13] |
+| Final [12/10]      | [Final][13] |  |
