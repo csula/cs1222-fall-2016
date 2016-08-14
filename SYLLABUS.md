@@ -10,8 +10,14 @@
 - **Instructor** Hsiang-Yu (Eric) Liao [rcliao01@gmail.com](mailto:rcliao01@gmail.com)
 - **Lecture** Saturday 12:00PM to 1:40PM (section 7) and 1:40PM to 4:10PM (section 8)
 - **Office Hours** Saturday 11:00 AM to 12:00 PM and 4:10PM to 5:10PM
+- **Office Hours Location** Either at the classroom (E&T A309 or library -- see notes below)
 - **Location** E&T A309
 - **Text Book** None as we will have all notes hosted on Github.
+
+> As the university notice, we (part-time lecturers) can use the library room --
+Palmer Wing room 2097 -- for the office hour purpose.
+
+> Thus, if you don't find me at the classroom, please find me at library.
 
 ## Course Objectives
 
