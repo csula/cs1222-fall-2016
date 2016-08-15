@@ -162,7 +162,9 @@ Running above sql query will create a students table.
 
 ### Set up environment
 
-Go to MySQL and download it.
+Download [MySQL](http://dev.mysql.com/doc/refman/5.7/en/windows-installation.html#windows-installation-simple).
+
+> If you are using lab computers, just go to next step.
 
 Start MySQL workbench.
 
