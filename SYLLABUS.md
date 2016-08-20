@@ -8,8 +8,10 @@
 ## Logistics
 
 - **Instructor** Hsiang-Yu (Eric) Liao [rcliao01@gmail.com](mailto:rcliao01@gmail.com)
-- **Lecture** Saturday 12:00PM to 1:40PM (section 7) and 1:40PM to 4:10PM (section 8)
-- **Office Hours** Saturday 11:00 AM to 12:00 PM and 4:10PM to 5:10PM
+- **Lecture**
+  * Saturday 12:00PM to 1:40PM (section 7 - lecture) and 1:40PM to 4:10PM (section 8 - laboratory)
+  * Saturday 4:30PM to 6:10PM (section 9 - lecture) and 6:10PM to 8:40PM (section 10 - laboratory)
+- **Office Hours** Saturday 11:00 AM to 12:00 PM, 4:10PM to 4:30PM and 8:40PM to 8:40PM
 - **Office Hours Location** Either at the classroom (E&T A309 or library -- see notes below)
 - **Location** E&T A309
 - **Text Book** None as we will have all notes hosted on Github.
