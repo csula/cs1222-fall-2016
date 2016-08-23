@@ -26,11 +26,10 @@ If anything that is required, please have a programming text-editor ready like
 
 Please check out this Github repository often as I'll post all updates here.
 
-* Course chatroom here -- https://csula-cs1222-fall-16.slack.com
-
 ## Quick links
 
 * [Syllabus](SYLLABUS.md)
+* Course chatroom here -- https://csula-cs1222-fall-16.slack.com
 
 [2]: https://www.sublimetext.com/
 [3]: https://atom.io/
