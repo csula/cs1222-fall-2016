@@ -11,7 +11,9 @@
 - **Lecture**
   * Saturday 12:00PM to 1:40PM (section 7 - lecture) and 1:40PM to 4:10PM (section 8 - laboratory)
   * Saturday 4:30PM to 6:10PM (section 9 - lecture) and 6:10PM to 8:40PM (section 10 - laboratory)
-- **Office Hours** Saturday 11:00 AM to 12:00 PM, 4:10PM to 4:30PM and 8:40PM to 8:40PM
+- **Office Hours**
+  * On-site: Saturday 11:00 AM to 12:00 PM, 4:10PM to 4:30PM and 8:40PM to 8:40PM
+  * Online 24/7
 - **Office Hours Location** Either at the classroom (E&T A309 or library -- see notes below)
 - **Location** E&T A309
 - **Text Book** None as we will have all notes hosted on Github.
