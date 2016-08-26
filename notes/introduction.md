@@ -10,6 +10,7 @@ of the class while I'm going over the [syllabus][1] and overall format of the cl
 * [Syllabus][1]
 * Introduction to database
 * Set up your environment
+* Set up CSNS account
 
 ## Metrics
 
@@ -159,6 +160,18 @@ CREATE TABLE `students` (
 ```
 
 Running above sql query will create a students table.
+
+### Set up CSNS
+
+Go to http://csns.calstatela.edu/ to activate your account.
+
+If this is your first time getting your account, your username and password are
+both your CIN.
+
+Once you get your account, you should see CS-1222 (section 1 or 2) showing up
+under your session.
+
+> If you don't see CS-1222, please see me after the class.
 
 ### Set up environment
 
