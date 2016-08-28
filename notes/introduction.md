@@ -181,4 +181,12 @@ Download [MySQL](http://dev.mysql.com/doc/refman/5.7/en/windows-installation.htm
 
 Start MySQL workbench.
 
+> Addition on the MySQL server setup
+
+Follow note here to set up MySQL server --
+https://github.com/csula/Utilities/blob/master/setups/mysql.md
+
+Once you finished installation above, you will always need to start your MySQL
+server first before you start MySQL workbench or any other MySQL client.
+
 [1]: ../syllabus.md
