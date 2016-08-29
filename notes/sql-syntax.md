@@ -251,7 +251,7 @@ You can combine multiple conditions with `AND`, `OR`.
 Before we talk about the combinations, you will probably find this truth table useful.
 
 | P | Q | AND | OR |
-| :------------- | :------------- |
+| :------------- | :------------- | :-- | :-- |
 | T | T | T | T |
 | T | F | F | T |
 | F | T | F | T |
