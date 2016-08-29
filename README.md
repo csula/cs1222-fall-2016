@@ -26,8 +26,16 @@ If anything that is required, please have a programming text-editor ready like
 
 Please check out this Github repository often as I'll post all updates here.
 
+| Date | Announcements |
+| :------------- | :------------- |
+| August 28 | Added MySQL server set up at introduction.md and couple links in Quick links below |
+
+
 ## Quick links
 
+* [SQL from Tutorial Points](http://www.tutorialspoint.com/sql/)
+* [SQL Cheatsheet](http://zeroturnaround.com/rebellabs/sql-cheat-sheet/)
+* [Beginner guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/)
 * [Syllabus](SYLLABUS.md)
 * Course chatroom here -- https://csula-cs1222-fall-16.slack.com
 
