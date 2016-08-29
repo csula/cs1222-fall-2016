@@ -189,4 +189,4 @@ https://github.com/csula/Utilities/blob/master/setups/mysql.md
 Once you finished installation above, you will always need to start your MySQL
 server first before you start MySQL workbench or any other MySQL client.
 
-[1]: ../syllabus.md
+[1]: ../SYLLABUS.md
