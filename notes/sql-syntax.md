@@ -226,7 +226,7 @@ WHERE TrackNum=TitleID;
 ### Basic Comparison Operators
 
 | Comparison | MySQL | Oracle |
-| :------------- | :------------- |
+| :------------- | :------------- | :------ |
 | Equals to | = | = |
 | Not equals to | != or <> | != or <> |
 | Less than | < | < |
