@@ -1,26 +1,29 @@
 # CS-1222 Introduction to Database
 
-This course is introduction to database.
+Welcome to the introduction to database course!
 
-In this course, we will be learning some basic term and concept of relational
-database and later over the NoSQL database.
+We will be learning some basic terms and concepts of relational database and the
+non-relational database like NoSQL databases.
 
-Overall, you will be learning syntax of SQL and being able to create tables yourself with
-some concept of NoSQL databases.
+You will be learning syntax of SQL and being able to design tables yourself and
+transition this knowledge to NoSQL databases.
 
-After taking this course, you will be able to write SQL code to store data into
-database and read it out.
+After taking this course, you will be able to read/write SQL code to
+read/store/manipulate data into database.
 
 ## Prerequisites
 
-As this course is 100 level courses, you don't need to have any programming
-background although recommended.
+As this course is 100 level courses, I do not expect any of you to have any
+programming background. Thus, the course will assume you know nothing and teach
+everything from ground up.
 
-Although not required but please be familiar with terminal(Command line interface)
-on windows. Most of the examples and courses will be in terminal format.
+Although it is not required but please be familiar with terminal(Command line
+interface on windows). Most of the examples within lectures will be in terminal.
 
-If anything that is required, please have a programming text-editor ready like
-[Sublime Text][2] or [Atom][3] installed on your computer.
+> While some may be in the MySQL workbench, I'd prefer to do everything in terminal
+
+I do recommend you to have a programming text-editor ready like
+[Sublime Text][2] or [Atom][3] installed on your computer so you can code.
 
 ## Announcements
 
