@@ -29,6 +29,7 @@ Please check out this Github repository often as I'll post all updates here.
 | Date | Announcements |
 | :------------- | :------------- |
 | August 28 | Added MySQL server set up at introduction.md and couple links in Quick links below |
+| September 3 | Added laboratory notes |
 
 
 ## Quick links
@@ -37,6 +38,7 @@ Please check out this Github repository often as I'll post all updates here.
 * [SQL Cheatsheet](http://zeroturnaround.com/rebellabs/sql-cheat-sheet/)
 * [Beginner guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/)
 * [Syllabus](SYLLABUS.md)
+* [General Lab instructions](labs/README.md)
 * Course chatroom here -- https://csula-cs1222-fall-16.slack.com
 
 [2]: https://www.sublimetext.com/
