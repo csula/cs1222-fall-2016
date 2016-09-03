@@ -283,13 +283,13 @@ be treated as a unit.
 Example:
 
 ```sql
-SELECT Firstname, Lastname, Regiion, SalesID
+SELECT Firstname, Lastname, Region, SalesID
 FROM Members
 WHERE Region='GA' OR Region='TX' AND SalesID=2;
 ```
 
 ```sql
-SELECT Firstname, Lastname, Regiion, SalesID
+SELECT Firstname, Lastname, Region, SalesID
 FROM Members
 WHERE (Region='GA' OR Region='TX') AND SalesID=2;
 ```
