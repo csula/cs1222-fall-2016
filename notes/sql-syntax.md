@@ -201,7 +201,7 @@ Example:
 # List firstname, lastname of every Member from Canada
 SELECT Firstname, Lastname
 FROM Members
-WHERE Country=`Canada`;
+WHERE Country='Canada';
 ```
 
 ```sql
