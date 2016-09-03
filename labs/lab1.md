@@ -9,6 +9,7 @@
 ## Part II: Design the following queries. Save your queries in a txt file, print it out and turn it in.
 
 Questions:
+
 1. List the Title, UPC and Genre of all CD titles. (Titles table)
 2. List the information of CD(s) produced by the artist whose ArtistID is 2. (Titles table)
 3. List the First Name, Last Name, HomePhome and Email address of all members. (Members table)
