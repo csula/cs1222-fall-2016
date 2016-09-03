@@ -6,6 +6,7 @@ Time to dive into SQL!
 
 * Recap of SQL
 * Basic select statements
+* Setup MySQL server
 
 ## Metrics
 
@@ -13,6 +14,7 @@ Time to dive into SQL!
 * Sort reports
 * Create computed columns
 * Filter results
+* Able to run MySQL queries
 
 ### What is SQL?
 
