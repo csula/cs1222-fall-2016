@@ -24,10 +24,12 @@ in a paragraph. Write this paragraph in comments. E.g.
 > A quick note on each line of comment should start with `#`
 
 ```sql
-# Question 2:
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-# Nisi, sunt! Alias incidunt hic, odit obcaecati, debitis beatae culpa
-# molestiae ea pariatur minus fugiat rem consequuntur fuga cum. Ab repellendus, quasi!
+/* 
+Question 2:
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Nisi, sunt! Alias incidunt hic, odit obcaecati, debitis beatae culpa
+molestiae ea pariatur minus fugiat rem consequuntur fuga cum. Ab repellendus, quasi!
+*/
 ```
 
 In summary, your submission should be one `.sql` file and nothing else. And
