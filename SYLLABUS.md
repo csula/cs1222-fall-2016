@@ -84,14 +84,14 @@ The schedule below is tentative and is subject to change.
 | 1  [08/27]         | [Introduction][1] | Set up environment |
 | 2  [09/03]         | [SQL Syntax][2] |  |
 | 3  [09/10]         | [Aggregation & Sub-queries][3] | Lab 1 |
-| 4  [09/17]         | [Aggregation & Sub-queries][3] | Homework 1 |
-| 5  [09/24]         | [Aggregation & Sub-queries][3] | Lab 2 |
-| 6  [10/01]         | [SQL Joins][4] | Homework 2 |
-| 7  [10/08]         | [SQL Functions][5] | Lab 3 |
+| 4  [09/17]         | [SQL Joins][4] | Homework 1 |
+| 5  [09/24]         | [SQL Functions][5] | Lab 2 |
+| 6  [10/01]         | [Advanced Queries][7] | Homework 2 |
+| 7  [10/08]         | [Data Manipulation][8] | Lab 3 |
 | 8  [10/15]         | [Mid term][6] |  |
-| 9  [10/22]         | [Advanced Queries][7] |  |
-| 10 [10/29]         | [Data manipulation in SQL][8] | Lab 4 |
-| 11 [11/05]         | [Data definition language][9] |  |
+| 9  [10/22]         | [Data definition language][9] |  |
+| 10 [10/29]         | [Advance Topic in SQL][9] | Lab 4 |
+| 11 [11/05]         | [Advance Topic in SQL][9] |  |
 | 12 [11/12]         | [Introduction to NoSQL][10] | Homework 3 |
 | 13 [11/19]         | [Read in MongoDB][11] |  |
 | 14 [11/26]         | Thanks Giving holiday | No class |
