@@ -83,7 +83,7 @@ The schedule below is tentative and is subject to change.
 | ------------------ | --- | --- |
 | 1  [08/27]         | [Introduction][1] | Set up environment |
 | 2  [09/03]         | [SQL Syntax][2] |  |
-| 3  [09/10]         | [SQL Syntax][2] | Lab 1 |
+| 3  [09/10]         | [Aggregation & Sub-queries][3] | Lab 1 |
 | 4  [09/17]         | [Aggregation & Sub-queries][3] | Homework 1 |
 | 5  [09/24]         | [Aggregation & Sub-queries][3] | Lab 2 |
 | 6  [10/01]         | [SQL Joins][4] | Homework 2 |
