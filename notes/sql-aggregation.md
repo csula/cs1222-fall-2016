@@ -9,6 +9,7 @@ Moreover, we will also be learning `JOIN` to deal with more than one table.
 
 ## Objectives
 
+* Review lab 1
 * Understand what aggregate functions are
 * Understand what sub-query is
 
@@ -17,6 +18,117 @@ Moreover, we will also be learning `JOIN` to deal with more than one table.
 * Write SQL queries to aggregate data
 * Learn how to write sub-query in `WHERE` clause
 * Use `ANY` and `ALL` with sub-query
+
+## Lab 1 Review
+
+It's very important for students to know the table structure before students start
+to design any sort of query. You got to understand what the database is for first.
+
+A general rule to get all talbes:
+
+```sql
+SHOW TABLES;
+```
+
+And with the table name, you can type in the following command to see their columns:
+
+```sql
+DESCRIBE {table};
+```
+
+Last but not least, I strongly recommend you to prepare a pen and paper to start
+writing down all table and their columns so you know what column(s) you can read
+from what table.
+
+For example:
+
+```
+Artist(
+  ArtistId,
+  ArtistName,
+  City,
+  Region,
+  Country,
+  WebAddress,
+  EntryDate,
+  LeadSource
+);
+
+Genre(
+  Genre
+);
+
+Members(
+  MemberID,
+  FirstName,
+  LastName,
+  Address,
+  City,
+  Region,
+  PostalCode,
+  Country,
+  HomePhone,
+  WorkPhone,
+  EMail,
+  Gender,
+  Birthday,
+  SalesID
+);
+
+SalesPeople(
+  SalesID,
+  FirstName,
+  LastName,
+  Initials,
+  Base,
+  Supervisor
+);
+
+Studios(
+  StudioID,
+  StudioName,
+  Address,
+  City,
+  Region,
+  PostalCode,
+  Country,
+  WebAddress,
+  Countact,
+  EMail,
+  Phone,
+  SalesID
+);
+
+Titles(
+  TitleID,
+  ArtistID,
+  Title,
+  StudioID,
+  UPC,
+  Genre
+);
+
+Tracks(
+  TitleID,
+  TrackNum,
+  TrackTitle,
+  LengthSeconds,
+  MP3,
+  RealAud
+);
+
+XrefArtistMembers(
+  MemberID,
+  ArtistID,
+  RespParty
+);
+```
+
+Is there other way you can represent the table?
+
+ER Diagram (Entity-Relationship)! -- http://www.tutorialspoint.com/dbms/er_diagram_representation.htm
+
+![Lyric ER Diagram](imgs/lyric_diagram.jpg)
 
 ### What is aggregation
 
