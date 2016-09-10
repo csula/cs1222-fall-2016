@@ -25,6 +25,7 @@ Study the Books database and create the following queries. (Note: you need to ru
   5. List the city and the state of all authors without duplicates.
 
 4. Aggregation & Joins
+
   1. List the number of books, the minimum price, maximum price and the average sales of history books.
     * The format of output is: `Number Min Price Max Price Average Sale`
 
