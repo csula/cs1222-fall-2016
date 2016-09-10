@@ -20,17 +20,20 @@ Study the Books database and create the following queries. (Note: you need to ru
   1. List the title id and title name of all books whose type are psychology and are at least 300 pages long.
   2. List the title name of all books with 'my' anywhere in the title name.
   3. List the name of all history books that are published in 1999.
-  4. List the first name, last name and zip code of all authors whose second leftmost digit of zip code is '4'. The format of output is:
-  First Name Last Name Zip Code
+  4. List the first name, last name and zip code of all authors whose second leftmost digit of zip code is '4'.
+    * The format of output is: `First Name Last Name Zip Code`
   5. List the city and the state of all authors without duplicates.
 
 4. Aggregation & Joins
-
   1. List the number of books, the minimum price, maximum price and the average sales of history books.
     * The format of output is: `Number Min Price Max Price Average Sale`
-   2. List the number of books and the average number of pages published by pub_id 01
-  3. List the number of books and the total sales of the books with price greater than $15
-  4. For each book type, list the the number of books and the average price. Sort the results by the number of books
+
+   2. List the number of books and the average number of pages published by pub_id 01.
+
+  3. List the number of books and the total sales of the books with price greater than $15.
+
+  4. For each book type, list the the number of books and the average price. Sort the results by the number of books.
+
   5. For each book type, list the book type and the average number of pages in the books with price greater than $10 in each category, excluding the types where the average number of pages is less than 200. Sort the results by the average number of pages.
 
 
