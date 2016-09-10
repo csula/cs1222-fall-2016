@@ -20,3 +20,16 @@ Aggregate calculations for a table or a group:
 15.  Report the total time in minutes for each titleid
 16.  Report region and the number of members in each region in the members table. Sort the results by the region.
 23.  For any region that has more than one member with an e-mail address, list the region and the number of members with an e-mail address.
+
+## Section 9 and 10 (4:30 to 8:30 section)
+
+1. List the first name, last name, and region of all members from Virginia who either have a work phone or an email address.
+5. List the artist name and web address of any artists who has a web address. Rename the attributes artistname, webaddress as Artist Name, Web Address.
+6. List the TitleID, TrackNum, and TrackTitle of all tracks with 'Song' at the beginning of the TrackTitle
+10. Report the total time in minutes of all tracks with length greater than 150.
+12. List the number of tracks, total length in seconds and the average length in seconds of  all tracks with titleID 4.
+13. Report the number of male members who are in US.
+17. Report the number of members by state and gender. Sort the results by the region
+19. For each kind of LeadSource, report the number of artists who came in to the system through that lead source, the earliest EntryDate, and the most recent EntryDate.
+20. Report the titleid, average, shortest and longest track length in minutes of all tracks for each titleid with average length greater than 300. Use proper column alias.
+22. Report the TitleID and number of tracks for any TitleID with fewer than nine tracks.
