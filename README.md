@@ -33,10 +33,12 @@ Please check out this Github repository often as I'll post all updates here.
 | :------------- | :------------- |
 | August 28 | Added MySQL server set up at introduction.md and couple links in Quick links below |
 | September 3 | Added laboratory notes |
+| September 10 | Adjusted schedule |
 
 
 ## Quick links
 
+* [SQL setup notes](https://github.com/csula/Utilities/blob/master/setups/mysql.md)
 * [SQL from Tutorial Points](http://www.tutorialspoint.com/sql/)
 * [SQL Cheatsheet](http://zeroturnaround.com/rebellabs/sql-cheat-sheet/)
 * [Beginner guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/)
