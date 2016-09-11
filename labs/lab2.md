@@ -24,7 +24,7 @@ Due at the end of class, please raise your hand when you are finished and we can
 1. List the first name, last name, and region of all members from Virginia who either have a work phone or an email address.
 5. List the artist name and web address of any artists who has a web address. Rename the attributes artistname, webaddress as Artist Name, Web Address.
 6. List the TitleID, TrackNum, and TrackTitle of all tracks with 'Song' at the beginning of the TrackTitle
-10. Report the total time in minutes of all tracks with length greater than 150.
+10. Report the total time in minutes of all tracks with length greater than 150.
 12. List the number of tracks, total length in seconds and the average length in seconds of  all tracks with titleID 4.
 13. Report the number of male members who are in US.
 17. Report the number of members by state and gender. Sort the results by the region
