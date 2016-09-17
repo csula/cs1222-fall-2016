@@ -1,4 +1,4 @@
-# Lab 2
+# Lab 1
 
 Total points: 10pts (each problem 1 point)
 
