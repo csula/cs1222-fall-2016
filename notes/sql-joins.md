@@ -8,6 +8,8 @@ Joins.
 
 ## Objectives
 
+* Homework 1 reminder
+* Lab 1 review
 * Learn how SQL join works
 * Join tables using EQUI JOIN
 * Join tables using INNER JOIN
