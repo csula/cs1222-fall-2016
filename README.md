@@ -39,6 +39,8 @@ Please check out this Github repository often as I'll post all updates here.
 ## Quick links
 
 * [SQL setup notes](https://github.com/csula/Utilities/blob/master/setups/mysql.md)
+* [SQL Venn Diagram from Coding Horror](https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
+* [SQL comma join vs inner join performance](https://www.percona.com/blog/2010/04/14/is-there-a-performance-difference-between-join-and-where/)
 * [SQL from Tutorial Points](http://www.tutorialspoint.com/sql/)
 * [SQL Cheatsheet](http://zeroturnaround.com/rebellabs/sql-cheat-sheet/)
 * [Beginner guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/)

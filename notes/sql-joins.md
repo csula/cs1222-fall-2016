@@ -216,7 +216,7 @@ Example:
 ```sql
 SELECT m.LastName, m.FirstName, s.LastName, s.FirstName
 FROM Members m
-INNER JOIN SalesPeople
+INNER JOIN SalesPeople s
 ON m.SalesID = s.SalesID
 WHERE Region = 'GA';
 ```
