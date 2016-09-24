@@ -145,3 +145,31 @@ In additional to format number, you can also formate date using `DATE_FORMAT` fu
 SELECT ArtistName, DATE_FORMAT(entrydate, '%m-%d-%y') AS Entered
 FROM Artists;
 ```
+
+### Control flow
+
+Syntax:
+
+```sql
+# switch case
+SELECT CASE {value}
+  WHEN {condition1} THEN {result}
+  WHEN {condition2} THEN {result}
+  ELSE {else_result}
+END;
+
+# if statement
+SELECT IF({condition}, {true_result}, {false_result});
+```
+
+Example:
+
+```sql
+SELECT CASE 1
+  WHEN 1 THEN 'one'
+  WHEN 0 THEN 'zero'
+  ELSE 'NaN'
+END;  
+
+SELECT IF(1 < 2, '1 is less than 2', 'wtf');
+```
