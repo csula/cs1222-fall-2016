@@ -64,7 +64,7 @@ GROUP BY Source;
 | LENGTH(expression) | Returns the length in characters of the text |
 | RIGHT(expression, length) | Returns text containing the specified number of characters from the right side of a text value |
 | SUBSTRING(expression, start, length) | Returns any specified portion of a text value. Start specifies the first character position to include. Length specifies the number of characters to include. |
-| LOCATE(expression, text, start) | Returns position of first occurrence of one text expression within another. Expression is text searched for. Text is text searched. Start is optional, specifies position within Text to start search. If expression is not found, will return 0. |
+| LOCATE(searchText, text, start) | Returns position of first occurrence of one text expression within another. Expression is text searched for. Text is text searched. Start is optional, specifies position within Text to start search. If expression is not found, will return 0. |
 | TRIM(expression), LTRIM(expression), RTRIM(expression) | Returns a copy of a text value without leading spaces (LTRIM), trailing spaces (RTRIM), or both leading and trailing spaces (TRIM). |
 | UPPER(expression), LOWER(expression) | Returns a copy of a text value converted to uppercase (UPPER), or lowercase (LOWER) |
 | LPAD(expression, num_char, pad_chars), RPAD(expression, num_char, pad_chars) | Makes a string a certain length (num_char) by adding a certain set of pad characters (pad_chars) to the left (LPAD) or right (RPAD) |
