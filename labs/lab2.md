@@ -26,7 +26,7 @@ Due at the end of class, please raise your hand when you are finished and we can
 8. List the names of members in the 'Highlander'.
 9. List each title from the Title table along with the name of the studio where it was recorded, the name of the artist, and the number of tracks on the title.
 10. List all genres from the Genre table that are not represented in the Titles table 
-2. For each member, report the member name and the age of the member.
+6. List every genre from the Genre table and the names of any titles in that genre if any. For any genres without titles, display 'No Titles' in  the Title column.
 4. Report the studio name and the last name of each studio contact. Hint: the last name is the part that follows the space.
 5. Report the longest track title.
 7. Redo Q6 using CASE.
