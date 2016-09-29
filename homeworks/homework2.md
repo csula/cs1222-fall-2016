@@ -11,7 +11,7 @@ Study the Books database and create the following queries. (Note: you need to ru
 2. List the title_name and book type of the books published by 'Abatis Publishers'
 3. Find the name(s) of the publisher(s) that have not published any book
 4. Find the name(s) of the publisher(s) who have published the computer book.
- 5. Find the name(s) of the author(s) that have authored more than one books.
+5. Find the name(s) of the author(s) that have authored more than one books.
 6. Find the name(s) of the publisher(s) who published the least expensive book.
 7. Find the name(s) of the author(s) who wrote the book with the greatest number of pages.
 1. Report the names of all authors and the title_name of the books (if any) they have authored.
