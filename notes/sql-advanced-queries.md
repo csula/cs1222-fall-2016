@@ -9,6 +9,19 @@
 * Use Exists with Sub-Queries
 * Write nested Sub-Queries
 
+### SQL Execution Plan
+
+```sql
+SELECT {column(s)}, {AGGREGATE_FUNCTION(colum(s))} # 8
+FROM {table(s)} # 1
+  {LEFT | RIGHT | INNER } JOIN {table2} # 2
+  ON {table1.column = table2.column} # 3
+WHERE {condition(s)} # 4
+GROUP BY {column(s)} # 5
+HAVING {condition(s)} # 6
+ORDER BY {column(s)}; # 7
+```
+
 ### Joins vs Unions
 
 ![Join vs unions](imgs/join_vs_union.png)
