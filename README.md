@@ -34,6 +34,7 @@ Please check out this Github repository often as I'll post all updates here.
 | August 28 | Added MySQL server set up at introduction.md and couple links in Quick links below |
 | September 3 | Added laboratory notes |
 | September 10 | Adjusted schedule |
+| October 1 | Homework2 due date extends to October 8th |
 
 
 ## Quick links
