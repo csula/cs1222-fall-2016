@@ -31,5 +31,5 @@ FROM            Artists. 
 5. The area code for Columbus, Ohio has been changed from 277 to 899. Update the homephone and workphone numbers of all members in Members2 table accordingly.
 6. Salesperson Bob Bentley has agreed to turn over all his female members to salesperson Lisa Williams whose sales id is 2. Update the Members2 table accordingly. 
 7. Members Doug Finney and Terry Irving are forming a new artist to be called "Doug and Terry." Add this record to the Artists table, using ArtistID 13, the address information of Doug Finney, no web address, today's entry date, and no lead source. Don’t hand-code any data for insert that can be looked up from the Members table.
-8. Add the appropriate new records to the XrefArtistsMembers table for the artist "Doug and Terry" (see #7). Doug is the responsible party. Don’t hand-code any data for insert that can be looked up from the Members table.
+8. Add the appropriate new records to the XrefArtistsMembers table for the artist "Doug and Terry" (see #4). Doug is the responsible party. Don’t hand-code any data for insert that can be looked up from the Members table.
 11. Modify the scheme of the Members2 table as the followings:  create a new column  'name'; delete the columns firstnafme lastname.
