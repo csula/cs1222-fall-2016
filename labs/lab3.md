@@ -40,8 +40,8 @@ FROM            Artists. 
 
 7. For  title id 1, report  the title ID, track title, lengthseconds, the average lengthseconds for all tracks of title id 1 , and the difference value between the lengthseconds and the average value.
 10. Report the title name, number of tracks, and total time in minutes for each title.
-12. For each artist list the artist name and the first and last name (together in one column) of every member associated with that artist followed on the next line by a count of the number of members associated with that artist. Include all artists whether they have members or not. 
-14.  List the artist id and the artist name of all artist who have members not in USA
+12. For each artist list the artist name and the first and last name (together in one column) of every member associated with that artist followed on the next line by a count of the number of members associated with that artist. Include all artists whether they have members or not.
+14. List the artist id and the artist name of all artist who have members not in USA
 
 > Please use “select * from …” after each query to show the effect of the query.   
 
