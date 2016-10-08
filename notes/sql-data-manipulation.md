@@ -83,6 +83,12 @@ FROM {table2};
 Examples:
 
 ```sql
+# create AudioFiles
+create table AudioFiles (
+	TitleID int,
+	TrackNum int,
+	AudioFormat varchar(50)
+);
 # Populate the AudioFile table with all the MP3s from the Tracks table.
 INSERT INTO AudioFiles
 (TitleID, TrackNum, AudioFormat)
