@@ -45,7 +45,6 @@ FROM            Artists. 
 > Please use “select * from …” after each query to show the effect of the query.   
 
 1. Add a new artist with the following information. Use a proper function to automatically get today's date.
-ArtistID	ArtistName	City	Region	Country	WebAddress	EntryDate	LeadSource
 
 | ArtistID | ArtistName | City | Region | Country | WebAddress | EntryDate | LeadSource |
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
