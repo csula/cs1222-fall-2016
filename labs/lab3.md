@@ -37,7 +37,6 @@ FROM            Artists. 
 ## Section 9 and 10 (4:30 to 8:30 section)
 
 4. Report the number of artists who entered in the same year  and the total number.
-
 7. For  title id 1, report  the title ID, track title, lengthseconds, the average lengthseconds for all tracks of title id 1 , and the difference value between the lengthseconds and the average value.
 10. Report the title name, number of tracks, and total time in minutes for each title.
 12. For each artist list the artist name and the first and last name (together in one column) of every member associated with that artist followed on the next line by a count of the number of members associated with that artist. Include all artists whether they have members or not.
@@ -46,6 +45,12 @@ FROM            Artists. 
 > Please use “select * from …” after each query to show the effect of the query.   
 
 1. Add a new artist with the following information. Use a proper function to automatically get today's date.
+ArtistID	ArtistName	City	Region	Country	WebAddress	EntryDate	LeadSource
+
+| ArtistID | ArtistName | City | Region | Country | WebAddress | EntryDate | LeadSource |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| 12 | November | New Orleans | LA | USA | www.november.com | (today) | Directmail |
+
 4. Populate Members2 the content of the Members table.
 
     > Suppose table is created with below
