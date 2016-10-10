@@ -35,6 +35,7 @@ Please check out this Github repository often as I'll post all updates here.
 | September 3 | Added laboratory notes |
 | September 10 | Adjusted schedule |
 | October 1 | Homework2 due date extends to October 8th |
+| October 8 | Homework2 due date extends to October 15th |
 
 
 ## Quick links
