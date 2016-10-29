@@ -42,20 +42,20 @@
 Syntax:
 
 ```sql
-CREATE TABLE {tableName} {
+CREATE TABLE {tableName} (
     {fieldName} datatype null | not null,
     {fieldName} datatype null | not null
-}
+);
 ```
 
 Example:
 
 ```sql
 # Create table called contracts with the ArtistID from the Artists table and a ContractDate field
-CREATE TABLE Contracts {
+CREATE TABLE Contracts (
     ArtistID Integer NOT NULL,
-    ContractDate SmallDateTime NOT NULL
-};
+    ContractDate DateTime NOT NULL
+);
 ```
 
 ### Dropping a table
@@ -133,11 +133,11 @@ DROP COLUMN ContractType;
 ## Defining as Identify Column
 
 ```sql
-CREATE TABLE tbl {
+CREATE TABLE tbl (
     ID int AUTO_INCREMENT NOT NULL,
     anotherField int null,
     primary key(ID)
-};
+);
 ```
 
 ## Identity vs guid columns
@@ -199,15 +199,15 @@ Syntax:
 
 ```sql
 # Only allow one pk fields
-CREATE TABLE {tableName} {
+CREATE TABLE {tableName} (
     {column} datattype null | not null PRIMARY KEY
-};
+);
 
-CREATE TABLE tableName {
+CREATE TABLE tableName (
     column1 datatype not null,
     column2 datatype not null,
     CONSTRAINT pk_tableName PRIMARY KEY (column1, column2)
-};
+);
 ```
 
 ## Unique Constraint with alter table
@@ -240,16 +240,16 @@ Syntax:
 
 ```sql
 # create a single column unique constraint
-CREATE TABLE {tableName} {
+CREATE TABLE {tableName} (
     {column} datatype not null unique
-};
+);
 
 # Can be used to create combination of unique keys
-CREATE TABLE {tableName} {
+CREATE TABLE {tableName} (
     {column1} datatype not null,
     {column2} datatype not null,
     CONSTRAINT {constraintName} UNIQUE (column1, column2)
-};
+);
 ```
 
 ## Default Constraint
@@ -273,18 +273,18 @@ ALTER {column} SET DEFAULT {value};
 Syntax:
 
 ```sql
-CREATE TABLE {tableName} {
+CREATE TABLE {tableName} (
     {column2} datatype DEFAULT {value}
-};
+);
 ```
 
 Example:
 
 ```sql
-CREATE TABLE tbl {
+CREATE TABLE tbl (
     ID int NOT NULL,
     anotehrColumn int DEFAULT 0 NOT NULL
-};
+);
 ```
 
 ## Check Constraints
@@ -331,23 +331,23 @@ REFERENCES SalesPeople (SalesID);
 Syntax:
 
 ```sql
-CREATE TABLE tableName {
+CREATE TABLE tableName (
     column1 datatype not null,
     column2 datatype not null,
     constraint constraintName FOREIGN KEY (column1) REFERENCES parent_tablename (parent_column)
-};
+);
 ```
 
 Example:
 
 ```sql
 # Create a table called constracts with the ArtistID from the Artists table and a ContractDate field. Create a foreign key constraint between ArtistID and the ArtistID in the Artist table
-CREATE TABLE Contracts {
+CREATE TABLE Contracts (
     ArtistID Integer NOT NULL,
     ContractDate SmallDateTime NOT NULL,
     CONSTRAINT fk_contracts_artist FOREIGN KEY (ArtistID)
     REFERENCES Artists (ArtistID)
-};
+);
 ```
 
 ## Foreign Key Implications
