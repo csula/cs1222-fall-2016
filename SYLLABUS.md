@@ -90,8 +90,8 @@ The schedule below is tentative and is subject to change.
 | 7  [10/08]         | [Data Manipulation][8] | Lab 3 |
 | 8  [10/15]         | [Mid term][6] | Homework 2 |
 | 9  [10/22]         | [Data definition language][9] | No class |
-| 10 [10/29]         | [Data definition language][9] | Lab 4 |
-| 11 [11/05]         | [Advance Topic in SQL][9] |  |
+| 10 [10/29]         | [Data definition language][9] |  |
+| 11 [11/05]         | [Advance Topic in SQL][9] | Lab 4 |
 | 12 [11/12]         | [Introduction to NoSQL][10] | Homework 3 |
 | 13 [11/19]         | [Read in MongoDB][11] |  |
 | 14 [11/26]         | Thanks Giving holiday | No class |
