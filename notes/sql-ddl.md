@@ -366,6 +366,26 @@ CREATE TABLE Contracts (
 * Cascade delete would delete all related records in child table when a record is deleted in parent table
 * Avoid orphan records
 
+```sql
+CREATE TABLE Titles (
+	TitleID int ,
+	ArtistID int NOT NULL ,
+	Title varchar (50) NULL ,
+	StudioID int NULL ,
+	UPC varchar (13) NULL ,
+	Genre varchar (15) NULL ,
+	CONSTRAINT fk_titles_artist FOREIGN KEY (ArtistID)
+    REFERENCES Artists (ArtistID)
+	ON DELETE CASCADE
+	ON UPDATE CASCADE
+);
+
+ALTER TABLE Titles ADD CONSTRAINT fk_titles_studios 
+FOREIGN KEY (StudioID) 
+REFERENCES Studios (StudioID)
+ON DELETE CASCADE;
+```
+
 ## Cascading updates & deletes
 
 * MySQL supports cacade deletes with the inclusion of on delete cascade at the end of the constraint clause
