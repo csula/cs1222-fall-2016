@@ -73,7 +73,7 @@ Example:
 DROP TABLE Contracts;
 ```
 
-## Adding coluns to an existing table
+## Adding columns to an existing table
 
 Syntax:
 
@@ -186,10 +186,10 @@ Example:
 ```sql
 # Set the primary key of the Contracts table to ArtistID and ContractDate
 ALTER TABLE Contracts
-ADD CONSTRAINT (pk_contracts) PRIMARY KEY (ArtistID, ContractDate);
+ADD CONSTRAINT pk_contracts PRIMARY KEY (ArtistID, ContractDate);
 
 # Set the primary key of tbl to the ID column
-ALTER TABLE {tbl}
+ALTER TABLE tbl
 ADD CONSTRAINT pk_tbl PRIMARY KEY (ID);
 ```
 
