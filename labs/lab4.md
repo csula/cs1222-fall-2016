@@ -18,7 +18,7 @@ In addition, we also want to allow artist to create multiple personal pages. Cur
 2. Change `ArtistStudioContract` table from question 1 to have foreign keys of ArtistID to Artists table and StudioID to Studios table
 3. Add SalesID to `ArtistStudioContract` table with foreign key to SalesPeople table
 4. Add a record to `ArtistStudioContract` table indicating artist id 1 signed up contract sales person id 3 for studio id 2 and artist id 5 signed up with sales person id 1 with studio id 3 while both having contract date being Artist's entry date
-   You should have a records like below:
+   You should have records like below:
    
       ```
       ArtistID | StudioID | SalesID | ContractDate
