@@ -92,8 +92,8 @@ The schedule below is tentative and is subject to change.
 | 9  [10/22]         | [Data definition language][9] | No class |
 | 10 [10/29]         | [Data definition language][9] |  |
 | 11 [11/05]         | [Advance Topic in SQL][15] | Lab 4 |
-| 12 [11/12]         | [Introduction to NoSQL][10] | Homework 3 |
-| 13 [11/19]         | [Read in MongoDB][11] |  |
+| 12 [11/12]         | [Introduction to NoSQL][10] |  |
+| 13 [11/19]         | [Read in MongoDB][11] | Homework 3 |
 | 14 [11/26]         | Thanks Giving holiday | No class |
 | 15 [12/03]         | [Write in MongoDB][12] | Homework 4 |
 | Final [12/10]      | [Final][13] |  |
