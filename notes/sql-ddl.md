@@ -407,7 +407,7 @@ Example:
 ```sql
 # Drop the fk_constracts_artist constaint on the Contracts table
 ALTER TABLE Contracts
-DROP CONSTRAINT fk_contracts_artist;
+DROP FOREIGN KEY fk_contracts_artist;
 ```
 
 ## Indexes
