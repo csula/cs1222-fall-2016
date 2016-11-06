@@ -67,6 +67,7 @@ Once we created the trasaction table, we also want to create a webaddress for th
     * Hint: remember we setup foreign keys from the `TitleSales` table, if you have to do anything in any other table other than Titles table. Please list them as well.
 6. Create `WebTitleSales` table containing `TitleID`, `Sales`, `WebAddress` (with TitleID being foreign key to Titles table)
 7. For every title in Titles, add them to `WebTitleSales` table with same TitleID, random sales, and WebAddress being www.{title (`replace` spaces with "_" (underline))}.lyrics.com
+    * Hint: you can replace by replace function -- http://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_replace
     * Your table should look something like below:
 
 
