@@ -51,7 +51,7 @@ Once we created the trasaction table, we also want to create a webaddress for th
 > Note that if you need any additional steps to answer questions such as adding primary key. Please list them under the question as part of your answer.
 
 1. Create table `TitleSales` containing `TitleID`, `Sales` (float type), `SalesID`
-2. Change `TitleSales` table from question 1 to have foreign key of SalesID to Sales table and foreign key of TitleID Titles table
+2. Change `TitleSales` table from question 1 to have foreign key of SalesID to SalesPeople table and foreign key of TitleID Titles table
 3. Add index to `TitleID` and `SalesID` to `TitleSales` table
 4. Add a random sale values to `TitleSales` table of `TitleID 1 and SalesID 2` and `TitleID 3 and SalesID 3`
     * Hint: You can use `Rand()` function to get random value
