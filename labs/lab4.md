@@ -80,3 +80,9 @@ Once we created the trasaction table, we also want to create a webaddress for th
 9. TitleID 3 is now also being requested to take down. You have to remove TitleID 3 from Titles table.
     * Hint: remember we setup foreign keys from the `TitleSales` table, if you have to do anything in any other table other than Titles table. Please list them as well.
 10. Create a view called `TitleTotalSales` containing TitleID, Sales, SalesType (being either personal or web), Identifier (either SalesID or WebAddress).
+    * Hint: you will need to use `UNION` to combine two tables
+    
+        ```
+        TitleID | Sales    | SalesType | Identifier
+        1       | 0.645212 | web       | www.Meet_the_Neurotics.lyrics.com
+        ```
