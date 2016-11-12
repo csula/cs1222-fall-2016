@@ -230,3 +230,24 @@ db.restaurants.remove( { } )
 db.restaurants.drop()
 ```
 
+## SQL to MongoDB
+
+Reference: https://docs.mongodb.com/manual/reference/sql-comparison/
+
+Terminology and concept table:
+
+| SQL Terms/Concepts | MongoDB Terms/Concepts |
+| :-- | :-- |
+| database | database |
+| table | collection |
+| row | document |
+| column | field |
+| index | index |
+| table joins | embedded documents and linking |
+
+Create and Alter
+
+| SQL statements | MongoDB statements |
+| :-- | :-- |
+| `CREATE TABLE users ( ... )` | `db.users.insert({ ... })` |
+| `ALTER TABLE users ADD column DATETIME` | `db.users.update({}, { $set: { column: new Date() } }, { multi: true })` |
