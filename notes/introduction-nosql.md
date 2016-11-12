@@ -106,6 +106,18 @@ like mysql you have to `use` database).
 use test;
 ```
 
+### Common debugging commands
+
+```sh
+# to see all databases
+# equals to `show databases;` in MySQL
+show dbs; 
+
+# to see all collections
+# equals to `show tables;` in MySQL
+show collections;
+```
+
 ### To create and insert a document, you can follow below command.
 
 ```javascript
