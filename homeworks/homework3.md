@@ -16,16 +16,14 @@ Questions:
 3. Insert another user object containing `name` of 'Bob', `age` of 21, `position` of 'student' and `grade` of 89 to `users` collection
 4. Find all documents under `users` collection 
 5. Find user name of 'Eric'
-6. Find users of age between 20 to 23
+6. Find users of age between 20 to 23 (inclusive)
 7. Update user object of 'Alice' to grade 95
 8. Delete user 'Bob'
 9. Update user of position 'student' to have a new field called `homeAddress` containing of follwing json:
 
-        ```json
         {
             street: '1234 Random st.',
             city: 'Los Angeles',
             state: 'CA'
         }
-        ```
 10. Drop users collection

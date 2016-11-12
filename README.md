@@ -48,6 +48,7 @@ Please check out this Github repository often as I'll post all updates here.
 * [Beginner guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/)
 * [Syllabus](SYLLABUS.md)
 * [General Lab instructions](labs/README.md)
+* [Reference text book - SQL Essentials](https://www.amazon.com/SQL-Essentials-CDROM-Gary-Randolph/dp/1590280296)
 * Course chatroom here -- https://csula-cs1222-fall-16.slack.com
 
 [2]: https://www.sublimetext.com/
