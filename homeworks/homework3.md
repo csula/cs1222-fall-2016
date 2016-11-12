@@ -21,11 +21,9 @@ Questions:
 8. Delete user 'Bob'
 9. Update user of position 'student' to have a new field called `homeAddress` containing of follwing json:
 
-        ```json
         {
             street: '1234 Random st.',
             city: 'Los Angeles',
             state: 'CA'
         }
-        ```
 10. Drop users collection
