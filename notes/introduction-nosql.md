@@ -82,6 +82,10 @@ And then run below command:
 mongoimport --db test --collection restaurants --drop --file ~/downloads/primer-dataset.json
 ```
 
+```sh
+"C:\Program Files\MongoDB\Server\3.2\bin\mongoimport.exe" --db test --collection restaurants --drop --file C:\Users\IEUser\Downloads\primer-dataset.json
+```
+
 ## Mongo shell commands
 
 Once you finish the installation of MongoDB as above steps, you should also have
