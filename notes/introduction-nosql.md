@@ -267,3 +267,7 @@ Create and Alter
 | :-- | :-- |
 | `CREATE TABLE users ( ... )` | `db.users.insert({ ... })` |
 | `ALTER TABLE users ADD column DATETIME` | `db.users.update({}, { $set: { column: new Date() } }, { multi: true })` |
+
+## Reference
+
+API documentation: https://docs.mongodb.com/manual/crud/
