@@ -59,7 +59,7 @@ Although there are three different types of aggregations, we will only cover the
 
 ### Aggregation pipeline
 
-![](aggregation-pipeline.png)
+![](imgs/aggregation-pipeline.png)
 
 Aggregation pipeline separates out the data aggregation processing into a few pipelines (or stages). In graph above, we noticed that it briefly separated into **$match** and **group** pipelines. 
 
