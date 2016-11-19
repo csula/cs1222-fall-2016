@@ -202,6 +202,7 @@ The second $group stage groups the new sorted documents by the `_id.state` field
 
 Last $project stage rename _id field to state and moves the biggestCity, biggestPop, smallestCity and smallestPop into biggestCity and smallestCity embedded documents.
 
-### Compare Mongo aggregation to SQL aggregation
+### References:
 
-https://docs.mongodb.com/manual/reference/sql-aggregation-comparison/
+* [SQL aggregation to MongoDB aggregation comparison](https://docs.mongodb.com/manual/reference/sql-aggregation-comparison/)
+* [Aggregation pipeline API documentation](https://docs.mongodb.com/manual/reference/operator/aggregation/)
