@@ -26,4 +26,6 @@ Questions:
             city: 'Los Angeles',
             state: 'CA'
         }
+        
+    * Hint: https://docs.mongodb.com/manual/reference/sql-comparison/#create-and-alter
 10. Drop users collection
