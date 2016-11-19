@@ -28,4 +28,5 @@ Questions:
         }
         
     * Hint: https://docs.mongodb.com/manual/reference/sql-comparison/#create-and-alter
+    * Please assume there are more than one students to be updated
 10. Drop users collection
