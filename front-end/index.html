@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <title>CS-1222 Intro to DB Web</title>
+
+        <style>
+            body {
+                padding: 1em;
+                margin: 1em;
+                font-size: 16px;
+                font-family: 'Hack';
+            }
+
+            section {
+                border: 1px solid #ccc;
+                padding: 0.5em;
+                margin-bottom: 1em;
+            }
+
+            pre {
+                padding: 1em;
+                background-color: #333;
+                color: #fff;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            table td,
+            table th {
+                padding: 0.3em;
+                border-bottom: 1px solid #666;
+            }
+
+            input {
+                font-size: 16px;
+                width: 100%;
+                line-height: 2em;
+                margin: 0.5em;
+                margin-bottom: 1em;
+                padding: 0.3em 1em;
+            }
+
+            button {
+                font-size: 16px;
+                text-align: center;
+                margin: 0.5em;
+            }
+            button.full {
+                padding: 1em;
+                width: 100%;
+            }
+            button.primary {
+                background-color: #3366CC;
+                color: #fff;
+            }
+            button.secondary {
+                background-color: transparent;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hello CS-1222</h1>
+
+        <section id="artists-app">
+            <h1>Artsts App from MySQL</h1>
+            <pre>{{artists}}</pre>
+            <table>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>City</th>
+                </tr>
+                <tr v-for="artist in artists">
+                    <td>{{ artist.ArtistID }}</td>
+                    <td>{{ artist.ArtistName }}</td>
+                    <td>{{ artist.City }}</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="grades-app">
+            <h1>Grades app from MongoDB</h1>
+            <pre>{{grades}}</pre>
+
+            <ul>
+                <li v-for="grade in grades">
+                    <button class="secondary" type="button" @click="removeGrade(grade)">X</button>
+                    <strong>{{grade.name}}</strong> {{ grade.grade }}
+                </li>
+            </ul>
+            <table>
+                <tr>
+                    <td>Average</td>
+                    <td>{{average}}</td>
+                </tr>
+                <tr>
+                    <td>Total Grade</td>
+                    <td>{{sum}}</td>
+                </tr>
+                <tr>
+                    <td>Letter Grade</td>
+                    <td>{{letterGrade}}</td>
+                </tr>
+            </table>
+
+            <form action="">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Quiz 1" v-model="newUser.name"
+                    @keyup.enter="addGrade">
+
+                <label for="grade">Grade</label>
+                <input id="grade" type="number" placeholder="100" v-model="newUser.grade"
+                    @keyup.enter="addGrade">
+
+                <button class="primary full" type="button" @click="addGrade">Add Grade</button>
+            </form>
+        </section>
+
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
