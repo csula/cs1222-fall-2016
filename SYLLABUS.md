@@ -96,7 +96,7 @@ The schedule below is tentative and is subject to change.
 | 13 [11/19]         | [MongoDB Aggregation][13] | Homework 3 |
 | 14 [11/26]         | Thanks Giving holiday | No class |
 | 15 [12/03]         | [Database Summary][12] | Homework 4 |
-| Final [12/10]      | [Final][13] |  |
+| Final [12/10]      | [Final][16] |  |
 
 [1]: notes/introduction.md
 [2]: notes/sql-syntax.md
@@ -112,3 +112,4 @@ The schedule below is tentative and is subject to change.
 [13]: notes/mongo-aggregation.md
 [14]: notes/final/md
 [15]: notes/sql-optional.md
+[16]: notes/final.md
